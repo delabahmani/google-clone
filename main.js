@@ -4,7 +4,7 @@ const searchInput = document.querySelector("#search-input");
 
 
 searchInput.addEventListener("keydown", function(event) {
-    if(event.code === 13) {
+    if(event.key === "Enter") {
         search();
     }
 });
